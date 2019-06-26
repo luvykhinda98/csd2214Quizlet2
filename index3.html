@@ -3,10 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Lon Hosford Basic Animation in Create JS</title>
+    <script src="http://code.createjs.com/createjs-2013.12.12.min.js"></script>
+    <title>Lon Hosford Basic CreateJS Shape Animation</title>
     <script>
+        var stage;
+
         function init() {
-            alert("Hello World!");
+            stage = new createjs.Stage("stage-canvas");
+            alert(stage.canvas);
         }
     </script>
     <style>
